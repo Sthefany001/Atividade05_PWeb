@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(238, 245, 255);
+}
+
+#centro{
+    background-color: white;
+    width: 45%; /*largura*/
+    height: auto; /*altura*/
+
+    margin: auto; /*deixar no meio*/
+    margin-top: 70px; /*deixar um pouco mais para baixo*/
+
+    display: flex; /*deixar os divs um do lado do outro*/
+
+    border-radius: 10px;
+}
+
+#ladoE{
+    background-image: url(../img/bg-sidebar-desktop.svg); /*colocar imagem no fundo*/
+    background-repeat: no-repeat; /*nao repetir imagem*/
+    background-position: center;
+    /*background-size: 100% 100%; /*definir tamanho da imagem*/
+
+    width: 80%; /*largura*/
+    height: auto; /*altura*/
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#ladoD{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#ladoD input[type = text], input[type = email], input[type = tel]{/*mudar os input*/
+    width: 100%; /*configurando largura*/
+
+    /*configurando altura pra nao ficar muito pra cima nem pra baixo e sim ficar no meio*/
+    padding-top: 10px;
+
+    border-color: 1px solid #c0c0c0;/*deixar borda mais grossa*/
+    border-radius: 10px;/*arredondar*/
+    margin-bottom: 20px; /*espaco entre inputs*/
+}
+
+#ladoD input[type = submit]{
+    margin-top: 30px; /*distancia do botao*/
+
+    background-color: rgb(0, 25, 79);
+    color: white;
+
+    padding: 10px; /*ficar um pouco maior que o texto*/
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    border: none; /*sem borda*/
+    border-radius: 5px; /*arredondar*/
+
+    float: right; /*colocar no lado direito o botao*/
+}
+
+.titulo{
+    font-size: 40px;
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: bold; /*negrito*/
+    color:rgb(0, 25, 79);
+}
+
+.subtitulo{
+    margin-top: 0px;
+    font-size: 0.8em;
+    color: #c0c0c0;
+}
+
+.step{
+    color: #c0c0c0;
+    font-size: 0.7em;
+    margin-bottom: 0px; /*evitar espaço*/
+    padding-bottom: 0px; /*evitar espaço*/
+    margin-left: 5px;
+}
+
+.info{
+    color: white;
+    font-size: 0.9em;
+    margin-top: 0px;
+}
+
+#ladoE ul{
+    list-style: none; /*tirar ponto da lista*/
+}
+
+#ladoE ul li{
+    display: flex; /*ficar uma do lado da outra*/
+}
+
+.circulo{
+    display: flex; /*ficar uma do lado da outra*/
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    align-items: center; /*alinhar itens*/
+    text-align: center; /*alinhar texto*/
+    justify-content: center; 
+    flex-wrap: wrap;
+}
