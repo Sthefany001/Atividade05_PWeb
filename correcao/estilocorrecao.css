@@ -19,7 +19,7 @@ body{
     background-image: url(../img/bg-sidebar-desktop.svg); /*colocar imagem no fundo*/
     background-repeat: no-repeat; /*nao repetir imagem*/
     background-position: center;
-    /*background-size: 100% 100%; /*definir tamanho da imagem*/
+    background-size: 100% 100%; /*definir tamanho da imagem*/
 
     width: 80%; /*largura*/
     height: auto; /*altura*/
@@ -32,6 +32,7 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 #ladoD input[type = text], input[type = email], input[type = tel]{/*mudar os input*/
@@ -81,12 +82,14 @@ body{
     margin-bottom: 0px; /*evitar espaço*/
     padding-bottom: 0px; /*evitar espaço*/
     margin-left: 5px;
+    margin-top: 0px;
 }
 
 .info{
     color: white;
     font-size: 0.9em;
     margin-top: 0px;
+    margin-left: 5px;
 }
 
 #ladoE ul{
@@ -106,5 +109,5 @@ body{
     align-items: center; /*alinhar itens*/
     text-align: center; /*alinhar texto*/
     justify-content: center; 
-    flex-wrap: wrap;
+
 }
